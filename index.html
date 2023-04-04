@@ -16,9 +16,9 @@
         <!-- logo -->
         <img class="cursor-pointer" src="./img/logo.svg" alt="">
 
-        <nav class="flex list-none gap-16	">
+        <nav class=" list-none gap-16  hidden lg:flex">
           <li class="cursor-pointer">
-            <h5  class="font-normal text-lg hover:text-[#2563EB] hover:ease-in hover:duration-300 active:text-[#333]">Demos</h5>
+            <h5  class="font-normal  text-sm  lg:text-lg hover:text-[#2563EB] hover:ease-in hover:duration-300 active:text-[#333]">Demos</h5>
           </li>
           <li class="cursor-pointer">
             <h5  class="font-normal text-lg hover:text-[#2563EB] hover:ease-in hover:duration-300 active:text-[#333]">Feature</h5>
@@ -44,13 +44,13 @@
   <!-- MAIN -->
   <main class="bg-[#F3F9FD]">
     <div class="container mx-auto">
-      <div class="flex items-center">
+      <div class="text-center lg:flex items-center ">
         <img src="./img/hero.svg" alt="">
         <div>
-          <h1 class="font-bold items-center text-5xl	text-[#0E1133]">Discover How Trending Apps Can Benefit You</h1>
-          <p class="text-lg	mt-5	">Boost your productivity with a simple to-do app. A mobile application
+          <h1 class=" lg: font-bold items-center text-5xl text-[#0E1133]">Discover How Trending Apps Can Benefit You</h1>
+          <p class=" lg: text-lg	mt-5 ">Boost your productivity with a simple to-do app. A mobile application
             Budgeting for your personal life</p>
-            <div class="flex gap-10	mt-5">
+            <div class=" justify-center lg: flex gap-10	mt-5 ">
               <a href="https://play.google.com/store/apps?hl=ru&gl=US">
                 <img class="cursor-pointer" src="./img/app.svg" alt="">
               </a>
@@ -67,10 +67,10 @@
   <section class="bg-[#FFFFFF]">
     <div class="container mx-auto">
       <div class="py-20	">
-        <div class="flex justify-center">
+        <div class=" items-center lg: flex justify-center">
           <h5 class="text-[#0E1133] font-medium	">With nearly 500 paying customers, our service is trusted</h5>
         </div>
-        <div class="flex justify-between pt-10 px-6	">
+        <div class=" hidden lg:flex pt-10 px-6 justify-between">
           <img src="./img/Frame.svg" alt="">
           <img src="./img/logo-2.svg" alt="">
           <img src="./img/logo-3.svg" alt="">
@@ -85,8 +85,8 @@
         </h3>
         <p class="text-center font-normal	">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia </p>
 
-        <ul class="list-none flex justify-center pt-20 gap-6	">
-          <li class="p-6 shadow-xl">
+        <ul class="list-none justify-center pt-20 gap-6	lg:flex">
+          <li class=" p-6 shadow-xl">
             <img src="./img/epli.png" alt="">
             <h4 class="font-medium	text-2xl pt-6	">Innovative Solution</h4>
             <p class="pt-6 font-normal	text-base	">Amet minim mollit non deserunt ullamco est <br> sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. </p>
@@ -110,15 +110,15 @@
   <section class="bg-[#0E1133]">
     <div class="container mx-auto">
       <div class="flex pt-52 justify-between">
-        <div class="bg-cover pr-14 " style="background-image: url('/img/bg.svg')">
+        <div class="hidden lg:inline bg-cover pr-14 " style="background-image: url('/img/bg.svg')">
           <img src="./img/socil-bg.svg" alt="">
         </div>
         
         <div class="px-3.5">
-          <h4 class="text-white	 text-5xl  font-bold">Air simplifies the organization of <br> your web applications </h4>
+          <h4 class=" lg: text-white	 text-5xl  font-bold">Air simplifies the organization of <br> your web applications </h4>
           <p class="pt-6 font-normal	text-base	text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros <br> elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut <br> commodo diam libero vitae erat.</p>
 
-          <ul class="pt-12 list-none flex justify-between">
+          <ul class="pt-12 list-none justify-between lg:flex">
             <li class="flex">
               <img class="mb-28	" src="./img/social.svg" alt="">
               <div class="pl-3">
@@ -143,7 +143,7 @@
   <!-- Info -->
   <section class="bg-[#FFFFFF]">
     <div class="container mx-auto">
-      <div class="flex justify-between pt-32	">
+      <div class="justify-between pt-32	lg:flex">
         <div>
           <h3 class="text-5xl  font-bold">Keeping track of your expenses <br> is made easy with this app</h3>
           <p class="pt-6 font-normal	text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros <br> elementum tristique. Duis cursus, mi quis viverra ornare, eros  dolor interdum nulla, ut <br> commodo diam libero vitae erat.</p>
@@ -205,7 +205,7 @@
         </div>
 
         <div>
-          <ul class="list-none flex gap-8 justify-center pt-20">
+          <ul class="list-none gap-8 justify-center pt-20 lg:flex">
             <li class="p-8	bg-[#FFFFFF] w-[403]">
               <div class="flex">
                 <h2 class="font-bold text-5xl	">$19</h2>
@@ -226,12 +226,10 @@
               <div class="flex py-3">
                 <input  type="checkbox">
                 <p class="px-2.5 font-normal	text-base">Unlimited Visitors</p>
-                <!-- <img src="./img/Icon.svg" alt=""> -->
               </div>
               <div class="flex py-3">
                 <input  type="checkbox">
                 <p class="px-2.5 font-normal	text-base">10 Agents</p>
-                <!-- <img src="./img/Icon.svg" alt=""> -->
               </div>
               <div class="flex py-3">
                 <input  type="checkbox">
@@ -261,12 +259,10 @@
               <div class="flex py-3">
                 <input  type="checkbox">
                 <p class="px-2.5 font-normal	text-base">Unlimited Visitors</p>
-                <!-- <img src="./img/Icon.svg" alt=""> -->
               </div>
               <div class="flex py-3">
                 <input  type="checkbox">
                 <p class="px-2.5 font-normal	text-base">10 Agents</p>
-                <!-- <img src="./img/Icon.svg" alt=""> -->
               </div>
               <div class="flex py-3">
                 <input  type="checkbox">
@@ -296,12 +292,10 @@
               <div class="flex py-3">
                 <input  type="checkbox">
                 <p class="px-2.5 font-normal	text-base">Unlimited Visitors</p>
-                <!-- <img src="./img/Icon.svg" alt=""> -->
               </div>
               <div class="flex py-3">
                 <input  type="checkbox">
                 <p class="px-2.5 font-normal	text-base">10 Agents</p>
-                <!-- <img src="./img/Icon.svg" alt=""> -->
               </div>
               <div class="flex py-3">
                 <input  type="checkbox">
@@ -325,7 +319,7 @@
           <p class="pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
-        <ul class="grid grid-cols-2 gap-8 py-20	">
+        <ul class=" gap-8 py-20	lg:grid grid-cols-2">
           <li class="p-8	border-2	shadow-inner">
             <img src="./img/Stars.svg" alt="">
             <p class="py-6	font-normal	text-base">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse <br> varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br> ornare  duis cursus, mi quis viverra."</p>
@@ -406,7 +400,7 @@
           <h3 class="text-6xl  font-bold text-white">Download our app for free</h3>
           <p class="text-white pt-8	font-normal	text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in <br> eros elementum tristique. Duis cursus, mi quis viverra ornare duis cursus, mi quis viverra. </p>
         </div>
-        <div class="flex justify-center gap-x-5	pt-14">
+        <div class=" justify-center gap-x-5	pt-14 flex">
           <input class="p-4	w-[495px] outline-none" type="text" placeholder="Enter your email">
           <button class="text-white rounded-xl p-4 px-7	bg-[#FBAF5B] hover:ease-in hover:duration-300 hover:opacity-40 hover:text-black active:bg-black active:text-white">Download App</button>
         </div>
@@ -419,7 +413,7 @@
   <!-- FOOTER -->
   <footer class="bg-[#0F172A]">
     <div class="container mx-auto">
-      <div class="flex py-32	gap-48	justify-center">
+      <div class=" py-32	gap-48	justify-center lg:flex">
         <ul class=" list-none">
           <li class="pb-8">
             <h5 class="font-medium text-xl	text-white ">Company</h5>
@@ -492,7 +486,8 @@
         </ul>
       </div>
       <hr class="pb-12">
-      <div class="flex justify-between	pb-8">
+
+      <div class=" justify-between	pb-8 lg:flex">
         <div>
           <p class="text-white">© Copyright 2022, Made with 💖 by Airdokan and Powered by Webflow
           </p>
